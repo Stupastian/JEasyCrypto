@@ -35,7 +35,7 @@ public class EasyCryptoConsole {
 				} else if (d.equalsIgnoreCase("q")) {
 					return;
 				} else {
-					console.printf("Sorry, '%s' is not a valid command.\n", d);
+					System.err.println("Sorry, '%s' is not a valid command.\n", d);
 					continue;
 				}
 
